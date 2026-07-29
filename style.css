@@ -193,3 +193,42 @@ ul{
     color:#cfcfcf;
     line-height:1.7;
 }
+.packages{
+    padding:100px 0;
+    background:#0b0b0b;
+}
+
+.package-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:35px;
+}
+
+.package-card{
+    background:#1c1c1c;
+    padding:40px;
+    border-radius:18px;
+    text-align:center;
+    border:1px solid #333;
+}
+
+.package-card h3{
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+.package-card h4{
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.package-card p{
+    color:#cfcfcf;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.featured{
+    border:2px solid silver;
+    transform:scale(1.03);
+}

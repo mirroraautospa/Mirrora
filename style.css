@@ -482,3 +482,58 @@ ul{
     background:#232323;
 
 }
+.vehicle-card{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px;
+
+    margin:18px 0;
+
+    border-radius:14px;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.3s;
+
+}
+
+.vehicle-card:hover{
+
+    background:rgba(255,255,255,.09);
+
+    transform:translateX(6px);
+
+}
+
+.vehicle-card span{
+
+    color:white;
+
+    font-weight:600;
+
+}
+
+.vehicle-card del{
+
+    display:block;
+
+    color:#8f8f8f;
+
+    font-size:14px;
+
+}
+
+.vehicle-card strong{
+
+    font-size:24px;
+
+    color:white;
+
+}

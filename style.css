@@ -243,3 +243,242 @@ ul{
     border:2px solid silver;
     transform:scale(1.03);
 }
+/* ===========================
+   PREMIUM PACKAGE DESIGN
+=========================== */
+
+.package-card{
+    position:relative;
+    background:linear-gradient(180deg,#202020 0%,#121212 100%);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:24px;
+    padding:40px;
+    overflow:hidden;
+
+    transition:.35s ease;
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.45);
+}
+
+.package-card::before{
+
+    content:"";
+
+    position:absolute;
+    top:0;
+    left:0;
+
+    width:100%;
+    height:5px;
+
+    background:linear-gradient(
+    90deg,
+    silver,
+    white,
+    silver);
+
+}
+
+.package-card:hover{
+
+    transform:translateY(-10px) scale(1.03);
+
+    border-color:silver;
+
+    box-shadow:
+    0 25px 60px rgba(192,192,192,.18),
+    0 0 45px rgba(255,255,255,.08);
+
+}
+
+.featured{
+
+    border:2px solid silver;
+
+    transform:scale(1.03);
+
+    background:
+    linear-gradient(180deg,#242424,#111111);
+
+}
+
+.featured:hover{
+
+    transform:translateY(-12px) scale(1.05);
+
+    box-shadow:
+    0 30px 70px rgba(220,220,220,.25);
+
+}
+
+.package-card h3{
+
+    font-size:34px;
+
+    margin-top:15px;
+
+    margin-bottom:30px;
+
+    letter-spacing:1px;
+
+}
+
+.sale-badge{
+
+    display:inline-block;
+
+    background:#00b84f;
+
+    color:white;
+
+    padding:8px 18px;
+
+    border-radius:50px;
+
+    font-weight:700;
+
+    font-size:13px;
+
+    margin-bottom:10px;
+
+}
+
+.popular-badge{
+
+    display:inline-block;
+
+    background:linear-gradient(90deg,#ffd700,#ffef8b);
+
+    color:#111;
+
+    padding:8px 18px;
+
+    border-radius:50px;
+
+    font-size:13px;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+.price-table{
+
+    margin:25px 0;
+
+    border-collapse:separate;
+
+    border-spacing:0 12px;
+
+}
+
+.price-table td,
+.price-table th{
+
+    padding:14px;
+
+}
+
+.price-table tr{
+
+    background:#1d1d1d;
+
+    border-radius:12px;
+
+}
+
+.price-table tr:hover{
+
+    background:#2b2b2b;
+
+}
+
+.price-table strong{
+
+    font-size:22px;
+
+    color:white;
+
+}
+
+.price-table del{
+
+    color:#7d7d7d;
+
+}
+
+.package-list{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:30px 0;
+
+}
+
+.package-list li{
+
+    padding:12px 0;
+
+    border-bottom:1px solid rgba(255,255,255,.06);
+
+    color:#d8d8d8;
+
+}
+
+.package-list li:last-child{
+
+    border:none;
+
+}
+
+.package-card .btn-primary{
+
+    width:100%;
+
+    padding:16px;
+
+    border-radius:12px;
+
+    margin-top:25px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.package-card:hover .btn-primary{
+
+    background:white;
+
+    color:black;
+
+}
+
+.addons-table{
+
+    margin-top:60px;
+
+    background:#161616;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+}
+
+.addons-table tr{
+
+    transition:.25s;
+
+}
+
+.addons-table tr:hover{
+
+    background:#232323;
+
+}

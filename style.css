@@ -746,3 +746,88 @@ ul{
     width:100%;
 
 }
+/* ==========================
+WHY CHOOSE US
+========================== */
+
+.why-us{
+
+    padding:110px 8%;
+
+    background:#101010;
+
+}
+
+.why-subtitle{
+
+    text-align:center;
+
+    max-width:700px;
+
+    margin:20px auto 60px;
+
+    color:#aaaaaa;
+
+    font-size:18px;
+
+}
+
+.why-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+}
+
+.why-card{
+
+    background:linear-gradient(180deg,#232323,#141414);
+
+    border-radius:22px;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:silver;
+
+    box-shadow:0 20px 45px rgba(255,255,255,.08);
+
+}
+
+.why-icon{
+
+    font-size:50px;
+
+    margin-bottom:20px;
+
+}
+
+.why-card h3{
+
+    color:white;
+
+    margin-bottom:18px;
+
+}
+
+.why-card p{
+
+    color:#bdbdbd;
+
+    line-height:1.7;
+
+}

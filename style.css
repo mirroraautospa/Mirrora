@@ -831,3 +831,22 @@ WHY CHOOSE US
     line-height:1.7;
 
 }
+.why-icon{
+
+    font-size:50px;
+
+    color:silver;
+
+    margin-bottom:25px;
+
+    transition:.35s;
+
+}
+
+.why-card:hover .why-icon{
+
+    color:white;
+
+    transform:scale(1.15) rotate(-5deg);
+
+}
